@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Tushar Batham - Portfolio
+
+High-performance, F1-inspired portfolio for Tushar Batham, a Software Development Engineer. Built to showcase technical proficiency, project deployments, and career milestones through an ultra-fast, visually compelling interactive experience.
+
+## Tech Stack
+- **Framework:** Next.js 14 (App Router)
+- **Styling:** Tailwind CSS (Dark Graphite / Matte Black aesthetic with F1 Red and Cyan telemetry accents)
+- **Animations:** Framer Motion (ultra-smooth vector lines, hover states, fluid motion)
+- **Icons:** Lucide React & React Icons
+
+## Key Features
+- **Ignition Hero:** Animated boot-up sequence with "System Online" indicators and targeted typography.
+- **Live Telemetry Dashboard:** Real-time feel metrics panel showcasing technical proficiencies (Python, TS, AWS, GCP, etc.) and GitHub contributions.
+- **Project Garage:** Interactive breakdown of distributed systems and AI applications built (Builtattic Marketplace, Vitruvi-AI, Real-Time Object Detection).
+- **Strategy Wall:** Clean, data-dense grid outlining professional engineering experience and education.
+- **Command Terminal:** Interactive, HR-friendly terminal interface supporting CLI commands alongside traditional contact UI buttons.
 
 ## Getting Started
 
-First, run the development server:
+First, install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
