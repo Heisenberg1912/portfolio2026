@@ -74,7 +74,7 @@ export function CustomCursor() {
   return (
     <>
       <motion.div
-        className="fixed top-0 left-0 pointer-events-none z-[9999] mix-blend-difference flex items-center justify-center overflow-hidden rounded-full bg-white text-black"
+        className="fixed top-0 left-0 pointer-events-none z-[9999] mix-blend-difference hidden md:flex items-center justify-center overflow-hidden rounded-full bg-white text-black"
         style={{
           x: cursorXSpring,
           y: cursorYSpring,

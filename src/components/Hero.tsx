@@ -94,7 +94,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.2, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-          className="text-[3.5rem] md:text-[6rem] lg:text-[8rem] leading-[1.05] font-extrabold text-center tracking-tighter max-w-6xl mx-auto flex flex-col items-center text-fg drop-shadow-2xl"
+          className="text-5xl sm:text-7xl md:text-[6rem] lg:text-[8rem] leading-[1.05] font-extrabold text-center tracking-tighter max-w-6xl mx-auto flex flex-col items-center text-fg drop-shadow-2xl px-4"
         >
           <span className="bg-clip-text text-transparent bg-gradient-to-b from-fg to-muted block pb-2">Full-Stack Vision.</span>
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-[var(--gradient-1)] via-[var(--gradient-2)] to-[var(--gradient-3)] inline-block mt-[-1rem] md:mt-[-2rem] pb-4">Flawless Execution.</span>

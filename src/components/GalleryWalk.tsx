@@ -65,7 +65,7 @@ function EditorialProjectCard({ project }: { project: ProjectProps }) {
   const opacity = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
 
   // Calculate sticky top position to stack cards
-  const topPosition = `calc(10vh + ${project.index * 40}px)`;
+  const topPosition = `calc(5vh + ${project.index * 20}px)`;
 
   return (
     <motion.div 
@@ -73,7 +73,7 @@ function EditorialProjectCard({ project }: { project: ProjectProps }) {
       style={{ scale, opacity, top: topPosition }}
       className="sticky w-full paper-shadow bg-card rounded-[2rem] md:rounded-[3rem] p-8 md:p-16 border border-border mb-12 origin-top transition-colors duration-500 hover:shadow-2xl"
     >
-      <div className="flex flex-col lg:flex-row gap-12 lg:gap-24 relative">
+      <div className="flex flex-col lg:flex-row gap-8 lg:gap-24 relative">
         
         {/* Massive Background Index Number */}
         <div className="absolute -top-10 -right-6 md:-right-10 pointer-events-none select-none overflow-hidden">

@@ -154,7 +154,7 @@ export function RecruiterTable() {
 
         {/* Interactive Experience / Projects Toggle */}
         <motion.section initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.4 }}>
-          <div className="flex gap-8 border-b border-border mb-10 transition-colors duration-500">
+          <div className="flex gap-4 md:gap-8 border-b border-border mb-10 transition-colors duration-500 overflow-x-auto scrollbar-hide whitespace-nowrap">
             {["Experience", "Key Projects", "Education"].map((tab) => (
               <button
                 key={tab}
