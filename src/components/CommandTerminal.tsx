@@ -99,7 +99,7 @@ export function CommandTerminal() {
 
                   <Command.Group heading="Resources" className="text-[10px] font-bold tracking-widest uppercase text-muted px-2 py-2 mt-2">
                     <Command.Item 
-                      onSelect={() => openLink("https://drive.google.com/file/d/1P8tDZFEgaDF14Dwx9ylLhd5YhHdNUUw-/view?usp=sharing")}
+                      onSelect={() => openLink("https://drive.google.com/file/d/10XRUUeLeBFdrs4m8IdhNn1_bTZEtq0O7/view?usp=sharing")}
                       className="flex items-center gap-3 px-3 py-3 rounded-xl text-sm text-fg cursor-pointer aria-selected:bg-accent aria-selected:text-white transition-colors"
                     >
                       <FiDownloadCloud className="opacity-70" /> Download Resume PDF

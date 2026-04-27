@@ -123,7 +123,7 @@ export function RecruiterTable() {
             <div className="flex gap-4 mt-4">
               <a href="https://github.com/Heisenberg1912" target="_blank" rel="noreferrer" className="p-3 bg-card rounded-full hover:bg-fg hover:text-bg border border-border shadow-sm transition-all"><FiGithub className="text-lg" /></a>
               <a href="https://linkedin.com/in/tusharbatham" target="_blank" rel="noreferrer" className="p-3 bg-card rounded-full hover:bg-accent hover:text-bg border border-border shadow-sm transition-all"><FiLinkedin className="text-lg" /></a>
-              <a href="https://drive.google.com/file/d/1P8tDZFEgaDF14Dwx9ylLhd5YhHdNUUw-/view?usp=sharing" target="_blank" rel="noreferrer" className="flex items-center gap-2 px-6 py-3 bg-accent text-white rounded-full hover:scale-105 transition-transform font-bold text-xs uppercase tracking-widest shadow-lg ml-2">
+              <a href="https://drive.google.com/file/d/10XRUUeLeBFdrs4m8IdhNn1_bTZEtq0O7/view?usp=sharing" target="_blank" rel="noreferrer" className="flex items-center gap-2 px-6 py-3 bg-accent text-white rounded-full hover:scale-105 transition-transform font-bold text-xs uppercase tracking-widest shadow-lg ml-2">
                 <FiDownloadCloud className="text-lg" />
                 <span className="hidden sm:inline">Resume PDF</span>
               </a>
